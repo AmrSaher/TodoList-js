@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- END FONTS -->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- END CSS -->
+    <title>Todo List</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="host">
+                <h2 class="title">Task List</h2>
+                <div class="content">
+                    <label for="new-todo">New task</label>
+                    <input id="new-todo" type="text" class="inp">
+                    <span id="error"></span>
+                    <button class="btn" id="add-task">ADD TASK</button>
+                </div>
+            </div>
+            <hr>
+            <div class="tasks">
+                <h2 class="title">Tasks</h2>
+                <div class="items" id="tasks"></div>
+                <button class="btn delete" id="clear-tasks">CLEAR TASKS</button>
+            </div>
+        </div>
+    </div>
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+    <!-- END SCRIPT -->
+</body>
+</html>
